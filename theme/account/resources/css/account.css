@@ -1,0 +1,108 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  padding: 1rem 0;
+  max-width: 48rem;
+}
+
+.bs-sidebar {
+  flex-basis: 25%;
+  margin-right: 2rem;
+}
+
+.bs-sidebar ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.bs-sidebar ul li {
+  margin-bottom: 0.5em;
+  margin-left: -1em;
+}
+
+.bs-sidebar ul li a {
+  font-size: 1rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  line-height: 1.5rem;
+  display: block;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f9f9f9;
+}
+
+.bs-sidebar ul li.active a {
+  border-color: #56bae0;
+  font-weight: bold;
+  background-image: url(../img/icon-sidebar-active.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.navbar-pf {
+  padding: 1rem;
+  box-sizing: border-box;
+  max-width: 48rem;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-header {
+  background: url('../mygento.svg') no-repeat center;
+  min-width: 12rem;
+}
+
+.navbar-title {
+  display: none;
+}
+
+.navbar-utility {
+  list-style: none;
+}
+
+.navbar-utility li {
+  padding: 1rem;
+}
+
+.navbar-utility .kc-dropdown-item {
+  display: none;
+}
+
+.navbar-header .container {
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.navbar-collapse .container {
+  padding: 1rem;
+  margin: auto;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+#kc-locale-dropdown {
+  display: none;
+}
+
+.content-area {
+  overflow-x: auto;
+  font-size: 0.75rem;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}

@@ -1,0 +1,43 @@
+#kc-locale {
+  display: none;
+}
+
+.kc-logo-text {
+  display: none;
+}
+
+.login-page {
+  padding: 15%;
+  max-width: 30rem;
+  margin: auto;
+}
+
+#kc-header {
+  background: url('../mygento.svg') no-repeat center;
+  height: 3rem;
+}
+
+#kc-header-wrapper {
+  display: none;
+}
+
+#kc-page-title {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  margin: 1rem 0;
+  display: block;
+}
+
+.form-group input {
+  border: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+}

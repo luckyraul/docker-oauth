@@ -1,0 +1,15 @@
+.welcome-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.darker_than_black {
+  color: #222;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.darker_than_black:visited {
+  color: #222;
+}
