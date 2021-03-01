@@ -1,4 +1,4 @@
-FROM quay.io/keycloak/keycloak:12.0.3
+FROM quay.io/keycloak/keycloak:12.0.4
 
 MAINTAINER Nikita Tarasov <nikita@mygento.ru>
 
