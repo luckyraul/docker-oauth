@@ -14,3 +14,7 @@
 .darker_than_black:visited {
   color: #111;
 }
+
+.welcome-container {
+  max-width: 30rem;
+}
