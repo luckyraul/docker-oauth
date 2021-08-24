@@ -1,4 +1,4 @@
-FROM quay.io/keycloak/keycloak:15.0.0
+FROM quay.io/keycloak/keycloak:15.0.2
 
 MAINTAINER Nikita Tarasov <nikita@mygento.ru>
 
