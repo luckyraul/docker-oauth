@@ -7,14 +7,14 @@
 }
 
 .login-page {
-  padding: 5%;
-  max-width: 30rem;
+  padding: 1%;
+  max-width: 50rem;
   margin: auto;
 }
 
 #kc-header {
   background: url('../mygento.svg') no-repeat center;
-  height: 13rem;
+  height: 10rem;
 }
 
 #kc-header-wrapper {
@@ -40,4 +40,43 @@
   font-size: 1rem;
   padding: 1rem;
   width: 100%;
+}
+
+.kc-badge {
+  background: url('../badge.svg') no-repeat center;
+  background-position: 0 4rem;
+  max-width: 20rem;
+  width: 100%;
+  display: none;
+  max-height: 35rem;
+}
+
+@media screen and (min-width:768px) {
+  #kc-content-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #kc-form {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .kc-badge {
+    display: block;
+  }
+
+  .kc-badge::after {
+    font-size: 0.85rem;
+    display: block;
+    content: 'Прислоните ваш бейдж для входа или войдите через форму'
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .login-page {
+    padding: 3% 5%;
+  }
 }
