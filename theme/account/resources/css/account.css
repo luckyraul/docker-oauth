@@ -9,8 +9,9 @@
 }
 
 .bs-sidebar {
-  flex-basis: 25%;
-  margin-right: 2rem;
+  flex-basis: 30%;
+  margin-right: 1rem;
+  padding: 0;
 }
 
 .bs-sidebar ul {
@@ -47,12 +48,14 @@
   box-sizing: border-box;
   max-width: 48rem;
   margin: auto;
+  background-color: transparent;
 }
 
 .navbar {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  min-height: 6rem;
 }
 
 .navbar-header {
@@ -105,4 +108,15 @@
   margin-bottom: 2rem;
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.navbar, 
+.navbar-pf .navbar-header,
+.navbar-pf .navbar-utility,
+.navbar-pf .navbar-utility > li + li {
+  border:0;
+}
+
+.form-horizontal .control-label {
+  text-align: left;
 }
