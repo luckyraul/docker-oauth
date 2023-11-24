@@ -12,9 +12,9 @@ jobs:
     strategy:
       matrix:
         version:
-          - '22.0.4'
+          - '23.0.0'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Build Image
         run: docker build -t mygento/auth:${{ matrix.version }} .
 
@@ -54,14 +54,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete untagged ghcr LR
-        uses: Chizkiyahu/delete-untagged-ghcr-action@v2
+        uses: Chizkiyahu/delete-untagged-ghcr-action@v3
         with:
           token: ${{ secrets.CR_PAT }}
           repository_owner: ${{ github.repository_owner }}
           owner_type: user
           package_name: auth
       - name: Delete untagged ghcr Mygento
-        uses: Chizkiyahu/delete-untagged-ghcr-action@v2
+        uses: Chizkiyahu/delete-untagged-ghcr-action@v3
         with:
           token: ${{ secrets.CR_PAT }}
           repository_owner: mygento
