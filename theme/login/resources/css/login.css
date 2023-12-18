@@ -51,6 +51,10 @@
   max-height: 35rem;
 }
 
+.pf-c-button.pf-m-control {
+  display: none;
+}
+
 @media screen and (min-width:768px) {
   #kc-content-wrapper {
     display: flex;
@@ -71,7 +75,7 @@
   .kc-badge::after {
     font-size: 0.85rem;
     display: block;
-    content: 'Прислоните ваш бейдж для входа или войдите через форму'
+    content: 'Please attach your corporate badge to the screen or use this form to log in'
   }
 }
 
