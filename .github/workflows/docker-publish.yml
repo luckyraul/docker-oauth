@@ -12,9 +12,9 @@ jobs:
     strategy:
       matrix:
         version:
-          - '26.6.4'
+          - '26.8.2'
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Build Image
         run: docker build -t mygento/auth:${{ matrix.version }} .
 
